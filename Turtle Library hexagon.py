@@ -1,0 +1,18 @@
+import turtle
+scr=turtle.Screen().bgcolor('pink')
+board=turtle.Turtle()
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+board.forward(100)
+board.left(50)
+import turtle
