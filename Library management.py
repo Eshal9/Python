@@ -41,3 +41,18 @@ if __name__ == '__main__':
         if user_choice not in ['1', '2', '3', '4', '5']:
             print("Please enter a valid option.")
             continue
+
+        if user_choice == '1':
+            books.displayBooks()
+        elif user_choice == '2':
+            book = input("Enter the name of the book you want to lend: ")
+            books.lendBook(user_name, book)
+        elif user_choice == '3':
+            book = input("Enter the name of the book you want to add: ")
+            books.addBook(book)
+        elif user_choice == '4':
+            book = input("Enter the name of the book you want to return: ")
+            books.returnBook(book)
+        elif user_choice == '5':
+            print(f"Thank you for using the library, {user_name}. Goodbye!")
+            break
